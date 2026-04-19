@@ -36,10 +36,9 @@ jobs:
       - name: Build Debug APK (Gradle)
         uses: gradle/gradle-build-action@v2
         with:
-          arguments: ':app:assembleDebug'
+          arguments: '-p android-apk :app:assembleDebug'
         env:
           ANDROID_HOME: ${{ env.ANDROID_HOME }}
-        working-directory: android-apk
 
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4

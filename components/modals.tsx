@@ -429,10 +429,3 @@ const styles = StyleSheet.create({
     color: '#fff',
   },
 });
-
-export default {
-  SimpleAlert,
-  MultiActionAlert,
-  PermissionModal,
-  DestructiveConfirm,
-};

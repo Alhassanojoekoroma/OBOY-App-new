@@ -264,16 +264,3 @@ export const shareToSocial = async (
     throw new Error('Failed to share to social media. Please try again.');
   }
 };
-
-export default {
-  initializeAIService,
-  enhanceImage,
-  generateMarketingContent,
-  generateMarketingCopy,
-  replaceBackground,
-  generateMockup,
-  getEnhancementSuggestions,
-  batchEnhanceImages,
-  exportContent,
-  shareToSocial,
-};

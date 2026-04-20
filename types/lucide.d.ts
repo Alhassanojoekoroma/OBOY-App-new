@@ -1,0 +1,87 @@
+declare module 'lucide-react-native' {
+  import { FC } from 'react';
+  import { SvgProps } from 'react-native-svg';
+
+  export interface LucideProps extends SvgProps {
+    size?: number | string;
+    absoluteStrokeWidth?: boolean;
+    color?: string;
+  }
+
+  export type LucideIcon = FC<LucideProps>;
+
+  export const TrendingUp: LucideIcon;
+  export const Clock: LucideIcon;
+  export const Banknote: LucideIcon;
+  export const GraduationCap: LucideIcon;
+  export const Calendar: LucideIcon;
+  export const Home: LucideIcon;
+  export const Hammer: LucideIcon;
+  export const X: LucideIcon;
+  export const Search: LucideIcon;
+  export const ArrowLeft: LucideIcon;
+  export const ArrowRight: LucideIcon;
+  export const Bell: LucideIcon;
+  export const User: LucideIcon;
+  export const Settings: LucideIcon;
+  export const LogOut: LucideIcon;
+  export const ChevronRight: LucideIcon;
+  export const ChevronLeft: LucideIcon;
+  export const Plus: LucideIcon;
+  export const Heart: LucideIcon;
+  export const MessageSquare: LucideIcon;
+  export const Share2: LucideIcon;
+  export const MoreHorizontal: LucideIcon;
+  export const Star: LucideIcon;
+  export const MapPin: LucideIcon;
+  export const Filter: LucideIcon;
+  export const ShoppingBag: LucideIcon;
+  export const Receipt: LucideIcon;
+  export const CreditCard: LucideIcon;
+  export const Check: LucideIcon;
+  export const AlertCircle: LucideIcon;
+  export const Trash2: LucideIcon;
+  export const Edit3: LucideIcon;
+  export const Image: LucideIcon;
+  export const Camera: LucideIcon;
+  export const Send: LucideIcon;
+  export const FileText: LucideIcon;
+  export const Download: LucideIcon;
+  export const ExternalLink: LucideIcon;
+  export const Menu: LucideIcon;
+  export const Info: LucideIcon;
+  export const Lock: LucideIcon;
+  export const Eye: LucideIcon;
+  export const EyeOff: LucideIcon;
+  export const Mail: LucideIcon;
+  export const Phone: LucideIcon;
+  export const Globe: LucideIcon;
+  export const Facebook: LucideIcon;
+  export const Twitter: LucideIcon;
+  export const Instagram: LucideIcon;
+  export const Github: LucideIcon;
+  export const Linkedin: LucideIcon;
+  export const Compass: LucideIcon;
+  export const ShoppingBasket: LucideIcon;
+  export const Minus: LucideIcon;
+  export const MoreVertical: LucideIcon;
+  export const SlidersHorizontal: LucideIcon;
+  export const BookOpen: LucideIcon;
+  export const Building2: LucideIcon;
+  export const Headphones: LucideIcon;
+  export const MessageCircle: LucideIcon;
+  export const History: LucideIcon;
+  export const LifeBuoy: LucideIcon;
+  export const Users: LucideIcon;
+  export const Package: LucideIcon;
+  export const LineChart: LucideIcon;
+  export const Apple: LucideIcon;
+  export const CheckCircle2: LucideIcon;
+  export const Construction: LucideIcon;
+  export const BedDouble: LucideIcon;
+  export const Bath: LucideIcon;
+  export const Wifi: LucideIcon;
+  export const Copy: LucideIcon;
+  export const HelpCircle: LucideIcon;
+  export const Upload: LucideIcon;
+}
